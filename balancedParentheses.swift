@@ -1,4 +1,4 @@
-public func balancedParentheses(input: String) -> Bool {
+public func isBalancedParentheses(input: String) -> Bool {
   var stack = [Character]()
   for char in input {
     if char == "(" {
